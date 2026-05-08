@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow Jeopardy!</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="config.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="grid-floor"></div>
+    <div class="sparkle">✦</div>
+    <div class="sparkle">✦</div>
+    <div class="sparkle">✦</div>
+    <div class="sparkle">✦</div>
+    <div class="sparkle">✦</div>
+
+    <!-- ════════════ PANEL ════════════ -->
+    <div class="page" id="panel-page">
+        <div class="panel-title">OVERFLOW</div>
+        <div class="board" id="board"></div>
+    </div>
+
+    <!-- ════════════ QUESTION PAGE ════════════ -->
+    <div class="page hidden" id="question-page">
+        <div class="clue-page-wrapper">
+            <div class="clue-box">
+                <div class="clue-label">
+                    <span class="cat-name" id="q-cat"></span>
+                    <span class="dot">·</span>
+                    <span class="val" id="q-val"></span>
+                </div>
+
+                <div class="clue-text" id="q-text"></div>
+                <img class="clue-img" id="q-img" src="" alt="" style="display:none">
+                <div class="audio-player" id="q-player" style="display:none">
+                    <button class="ap-play-btn" id="q-play-btn" aria-label="Play">
+                        <span class="icon-play">▶</span>
+                        <span class="icon-pause">❚❚</span>
+                        <span class="icon-replay">↺</span>
+                    </button>
+                    <div class="ap-track">
+                        <div class="ap-progress-wrap" id="q-prog-wrap">
+                            <div class="ap-progress-fill" id="q-prog-fill"></div>
+                        </div>
+                        <div class="ap-time">
+                            <span id="q-time-cur">0:00</span>
+                            <span id="q-time-dur">0:00</span>
+                        </div>
+                    </div>
+                    <div class="ap-wave">
+                        <div class="ap-bar"></div>
+                        <div class="ap-bar"></div>
+                        <div class="ap-bar"></div>
+                        <div class="ap-bar"></div>
+                        <div class="ap-bar"></div>
+                        <div class="ap-bar"></div>
+                        <div class="ap-bar"></div>
+                    </div>
+                </div>
+
+                <div class="clue-nav">
+                    <button class="nav-btn nav-left" id="q-back-btn">BACK TO PANEL</button>
+                    <div class="nav-spacer"></div>
+                    <button class="nav-btn nav-right" id="q-reveal-btn">REVEAL ANSWER</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ════════════ ANSWER PAGE ════════════ -->
+    <div class="page hidden" id="answer-page">
+        <div class="clue-page-wrapper">
+            <div class="clue-box">
+                <div class="clue-label">
+                    <span class="cat-name" id="a-cat"></span>
+                    <span class="dot">·</span>
+                    <span class="val" id="a-val"></span>
+                </div>
+
+                <div class="clue-text" id="a-text"></div>
+                <img class="clue-img" id="a-img" src="" alt="" style="display:none">
+                <div class="audio-player" id="a-player" style="display:none">
+                    <button class="ap-play-btn" id="a-play-btn" aria-label="Play">
+                        <span class="icon-play">▶</span>
+                        <span class="icon-pause">❚❚</span>
+                        <span class="icon-replay">↺</span>
+                    </button>
+                    <div class="ap-track">
+                        <div class="ap-progress-wrap" id="a-prog-wrap">
+                            <div class="ap-progress-fill" id="a-prog-fill"></div>
+                        </div>
+                        <div class="ap-time">
+                            <span id="a-time-cur">0:00</span>
+                            <span id="a-time-dur">0:00</span>
+                        </div>
+                    </div>
+                    <div class="ap-wave">
+                        <div class="ap-bar"></div>
+                        <div class="ap-bar"></div>
+                        <div class="ap-bar"></div>
+                        <div class="ap-bar"></div>
+                        <div class="ap-bar"></div>
+                        <div class="ap-bar"></div>
+                        <div class="ap-bar"></div>
+                    </div>
+                </div>
+
+                <div class="clue-nav">
+                    <button class="nav-btn nav-left" id="a-back-btn">BACK TO PANEL</button>
+                    <div class="nav-spacer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
