@@ -1,11 +1,11 @@
 const JEOPARDY_CONFIG = {
 	categories: [
-		"VIDEO GAMES",
+		"VIDEO GAME HISTORY",
 		"PROGRAMMING",
 		"NP GEOGUESSR",
 		"MRT STATIONS",
-		"ARTIST ARTISTES",
-		"AUDIOS",
+		"ARTIST AND ARTISTES",
+		"FAMOUS SOUNDS",
 	],
 	values: [200, 400, 600, 800, 1000],
 
@@ -51,10 +51,10 @@ const JEOPARDY_CONFIG = {
 					"In 1990, Microsoft added this card game to its Windows operating system to help soothe users who were intimidated by the operating system",
 			},
 			{
-				answer: "Enix",
+				answer: "Half-Life",
 				answerImg: "images/video_games/1000_a.png",
 				question:
-					"This company, responsible for creating the first console RPG (Role-Playing Game) was founded by an architect who was initially advertising tabloids for real estate",
+					"This critically acclaimed game series, famous for its lack of a third entry, was created by an ex-Microsoft employee"
 			},
 		],
 
@@ -135,16 +135,17 @@ const JEOPARDY_CONFIG = {
 					"This MRT station is related to a tale about blood-stained soil",
 			},
 			{
-				answer: "Hume station",
-				answerImg: "images/mrt_stations/600_a.png",
-				question:
-					"This MRT station is one of Singapore’s newest additions to the rail network",
-			},
-			{
 				answer: "Marina South Pier station",
 				answerImg: "images/mrt_stations/800_a.png",
 				question:
 					"This MRT station is the least used station and serves as a pier",
+			},
+			{
+				answer: "Hume station",
+				answerImg: "images/mrt_stations/600_a.png",
+				question:
+					"This MRT station is one of Singapore’s newest additions to the rail network",
+				
 			},
 			{
 				answer: "Bencoolen station",
