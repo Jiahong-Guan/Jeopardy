@@ -115,7 +115,7 @@ const JEOPARDY_CONFIG = {
 				questionImg: "images/np_geoguessr/800_q.jpeg",
 			},
 			{
-				answer: "Maker's Guild",
+				answer: "Makers' Academy",
 				question: "",
 				questionImg: "images/np_geoguessr/1000_q.jpeg",
 			},
