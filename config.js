@@ -52,7 +52,7 @@ const JEOPARDY_CONFIG = {
 			},
 			{
 				answer: "Half-Life",
-				answerImg: "images/video_games/1000_a.png",
+				answerImg: "images/video_games/1000_aa.jpg",
 				question:
 					"This critically acclaimed game series, famous for its lack of a third entry, was created by an ex-Microsoft employee"
 			},
