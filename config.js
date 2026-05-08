@@ -94,7 +94,7 @@ const JEOPARDY_CONFIG = {
 		// ── NP GEOGUESSR ─────────────────────────────────────────────────────────
 		[
 			{
-				answer: "Garden above Food Club",
+				answer: "Food Club",
 				question: "",
 				questionImg: "images/np_geoguessr/200_q.jpeg",
 			},
@@ -193,11 +193,13 @@ const JEOPARDY_CONFIG = {
 		[
 			{
 				answer: "Clash Royale",
+				answerImg: "images/audio/200_a.jpg",
 				question: "This is a game's opening sound",
 				questionAudio: "images/audio/200_q.mp3",
 			},
 			{
 				answer: "Roblox's OOF",
+				answerImg: "images/audio/400_a.jpg",
 				question: "The sound from a game",
 				questionAudio: "images/audio/400_q.mp3",
 			},
@@ -212,7 +214,7 @@ const JEOPARDY_CONFIG = {
 				answer: "Undertale",
 				answerImg: "images/audio/800_a.png",
 				question:
-					"This critically acclaimed indie RPG features characters like Sans and Papyrus",
+					"This indie role-playing game, widely praised by critics, features a cast of distinctive characters in an underground setting",
 				questionAudio: "images/audio/800_q.mp3",
 			},
 			{
